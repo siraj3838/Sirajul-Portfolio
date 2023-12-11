@@ -1,7 +1,7 @@
 import emailjs from '@emailjs/browser';
 import { useRef } from 'react';
 import toast, { Toaster } from 'react-hot-toast';
-
+import { FaLevelUpAlt } from "react-icons/fa";
 
 const ContactUs = () => {
     const form = useRef();
@@ -41,6 +41,9 @@ const ContactUs = () => {
                 </div>
                 <input type="submit" value="Send" className="bg-[#00abf0] text-2xl text-gray-800 font-semibold py-2 px-2 rounded-md w-full" />
             </form>
+            <div className='flex justify-end lg:px-40'>
+                <a href="#home" className="bg-[#00abf0] text-2xl text-gray-800 font-semibold py-4 px-5 rounded-md"><FaLevelUpAlt className='text-4xl'></FaLevelUpAlt></a>
+            </div>
         </div>
     );
 };

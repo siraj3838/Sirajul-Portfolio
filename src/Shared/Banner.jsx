@@ -25,9 +25,9 @@ const Banner = () => {
                         </div>
                     </div>
                     <div className="home-sci">
-                        <a href="#"><i className='bx bxl-facebook'></i></a>
-                        <a href="#"><i className='bx bxl-whatsapp'></i></a>
-                        <a href="#"><i className='bx bxl-linkedin'></i></a>
+                        <a href="https://web.facebook.com/WKmohammad.sakil"><i className='bx bxl-facebook'></i></a>
+                        <a href="https://whatsapp.com/dl"><i className='bx bxl-whatsapp'></i></a>
+                        <a href="https://www.linkedin.com/in/sirajul-islam-41845a2a0/"><i className='bx bxl-linkedin'></i></a>
                     </div>
                 </div>
                 <div className='mt-24'>

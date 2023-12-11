@@ -2,7 +2,7 @@ import '../index.css'
 const Navbar = () => {
     return (
         <>
-            <div className='max-w-screen-2xl mx-auto'>
+            <div id='home' className='max-w-screen-2xl mx-auto'>
                 <div className="navbar">
                     <div className="navbar-start">
                         <div className="dropdown">
@@ -12,6 +12,7 @@ const Navbar = () => {
                             <nav tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow rounded-box w-52 space-y-4">
                                 <a href="#home" className="active">Home</a>
                                 <a href="#about">About</a>
+                                <a href="#projects">My Projects</a>
                                 <a href="#education">Education</a>
                                 <a href="#skills">Skills</a>
                                 <a href="#contact">Contact</a>
@@ -21,8 +22,8 @@ const Navbar = () => {
                     <div className="lg:navbar-start hidden lg:flex max-w-screen-2xl mx-auto">
                         <nav className="menu menu-horizontal px-1 navbar">
                             <a href="#home" className="active">Home</a>
-                            <a href="#projects">My Projects</a>
                             <a href="#about">About</a>
+                            <a href="#projects">My Projects</a>
                             <a href="#education">Education</a>
                             <a href="#skills">Skills</a>
                             <a href="#contact">Contact</a>

@@ -10,7 +10,7 @@ const MyWebSite = () => {
             <div className="portfolio" id="portfolio">
 
 
-                {/* slider */}
+                {/* slide */}
                 <Swiper
                     spaceBetween={20}
                     slidesPerView={2}
