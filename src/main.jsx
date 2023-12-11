@@ -14,7 +14,7 @@ const router = createBrowserRouter([
     children: [
       {
         path: '/',
-        element:<Home></Home>
+        element: <Home></Home>
       }
     ]
   },
@@ -22,6 +22,8 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-   <RouterProvider router={router} />
+    <RouterProvider router={router}>
+      
+    </RouterProvider>
   </React.StrictMode>,
 )

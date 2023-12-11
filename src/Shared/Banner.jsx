@@ -1,5 +1,15 @@
 import '../index.css'
+import sirajPdf from '../assets/Sirajul Islam Web Developer.pdf'
 const Banner = () => {
+    const handleDownloadResume = () => {
+        const pdfPath = sirajPdf;
+        const link = document.createElement('a');
+        link.href = pdfPath;
+        link.download = 'Siraju Islam Web Developer Resume';
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    }
     return (
         <>
             <div className='min-h flex flex-col-reverse md:flex-row md:justify-center p-5'>
@@ -11,7 +21,7 @@ const Banner = () => {
                         </div>
                         <p className='text-gray-400'>I am MERN Stack Developer, I am comfortable working with React JavaScript. I have knowledge of problem solving. I am None CSE background but I like Coding more. I am happy to complete my work. I value my work on time. I enjoy coding more than wasting time.</p>
                         <div className="btn-box">
-                            <a href="#" className="btn">Download My Resume</a>
+                            <a onClick={handleDownloadResume} className="btn">Download My Resume</a>
                         </div>
                     </div>
                     <div className="home-sci">

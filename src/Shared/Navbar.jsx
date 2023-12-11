@@ -21,6 +21,7 @@ const Navbar = () => {
                     <div className="lg:navbar-start hidden lg:flex max-w-screen-2xl mx-auto">
                         <nav className="menu menu-horizontal px-1 navbar">
                             <a href="#home" className="active">Home</a>
+                            <a href="#projects">My Projects</a>
                             <a href="#about">About</a>
                             <a href="#education">Education</a>
                             <a href="#skills">Skills</a>
