@@ -1,5 +1,5 @@
 import '../index.css'
-import sirajPdf from '../assets/Sirajul Islam Web Developer.pdf'
+import sirajPdf from '../assets/Sirajul Islam MERN-Stack-Developer.pdf'
 const Banner = () => {
     const handleDownloadResume = () => {
         const pdfPath = sirajPdf;
