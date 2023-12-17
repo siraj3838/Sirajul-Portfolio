@@ -57,7 +57,7 @@ const Education = () => {
                             <div className="education-content">
                                 <div className="content">
                                     <div className="year"><i className='bx bxs-calendar'>2022 - 2023</i></div>
-                                    <h3>Trading</h3>
+                                    <h3>Course</h3>
                                     <p>I enrolled in Complete Web development Course in Programming Hero in 2022-23 and it lasted for 6 months and I completed all the learning on time.</p>
                                 </div>
                             </div>
